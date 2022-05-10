@@ -12,11 +12,14 @@ import BibliographicCards from "../components/BibliographicCards";
 
 const MainLayout = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000, once: true });
+    Aos.init({
+      duration: 1500,
+      once: true,
+    });
   }, []);
 
   return (
-    <div>
+    <div className="animated-background">
       <Navbar />
       <Metaverse />
       <RAVideos />

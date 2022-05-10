@@ -14,11 +14,9 @@ const BibliographicCards = () => {
 };
 
 const Layout = styled.div`
-  background-color: #724e91;
   color: white;
   margin: 10px;
   padding-top: 58px;
-  border: 5px solid black;
 `;
 
 export default BibliographicCards;

@@ -14,11 +14,9 @@ const ActivitiesPortfolio = () => {
 };
 
 const Layout = styled.div`
-  background-color: #e54f6d;
   color: white;
   margin: 10px;
   padding-top: 58px;
-  border: 5px solid black;
 `;
 
 export default ActivitiesPortfolio;

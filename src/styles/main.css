@@ -2,6 +2,61 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #131313;
+}
+
+hr {
+  border: 3px solid white;
+}
+
 .component-container {
   height: 500px;
 }
+
+.section-title {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.qr-image {
+  height: 170px;
+  width: 170px;
+}
+
+/* ? Styleds */
+.animated-background {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  background-size: 400% 400%;
+  animation: animate-background 10s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/*
+ ? C O L O R S
+$primary: #ffce47;
+$secondary: #fdba02;
+$tertiary: #d55f20;
+
+$black: #000000;
+$black-100: #383838;
+$black-400: #141212;
+$black-600: #131313;
+
+$gray: #9a9a9a;
+$gray-400: #757575;
+
+$white: #ffff;
+ */

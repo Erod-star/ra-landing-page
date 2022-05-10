@@ -1,0 +1,14 @@
+.activitie-title {
+  color: beige;
+}
+
+.activities-loading {
+  color: black;
+  animation: on-activitie-loading 3s infinite;
+}
+
+@keyframes on-activitie-loading {
+  0% {
+    font-weight: bold;
+  }
+}
