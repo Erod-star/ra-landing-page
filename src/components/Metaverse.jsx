@@ -12,12 +12,15 @@ const Metaverse = () => {
     <Layout id="metaverse" className="component-container">
       <h1 className="text-center section-title">Metaverso</h1>
       <hr />
-      <h3 className="mt-5 mb-5 ms-5 activities-loading">
-        Aquí se muestra lo trabajado a lo largo del semestre...
-      </h3>
+      <div className="mt-5 mb-5 ms-5 d-flex activities-metaverse">
+        <ActivitiesToDisplay>
+          Aquí se muestra lo trabajado a lo largo del semestre...
+        </ActivitiesToDisplay>
+        <div className="activities-loading">👇</div>
+      </div>
       <ActivitieContainer>
-        <ActivitieDescription>
-          <h4 className="activitie-title">Título de la actividad</h4>
+        <ActivitieDescription className="activitie-description">
+          <h3 className="mb-3">Cartel y exposición del Metaverso</h3>
           <span>Descripción:</span>
           <p>
             Eiusmod non fugiat id consequat officia fugiat. Eiusmod mollit
@@ -32,16 +35,11 @@ const Metaverse = () => {
             enim consequat tempor non consequat aliquip incididunt do quis.
             Pariatur cillum ipsum deserunt qui ipsum nulla aliqua sunt. Veniam
             culpa nostrud laborum duis reprehenderit deserunt occaecat dolor.
-            <br />
-            Cupidatat voluptate mollit reprehenderit do nostrud pariatur irure
-            pariatur et do qui nostrud fugiat et. Consequat fugiat irure minim
-            enim consequat tempor non consequat aliquip incididunt do quis.
-            Pariatur cillum ipsum deserunt qui ipsum nulla aliqua sunt. Veniam
-            culpa nostrud laborum duis reprehenderit deserunt occaecat dolor.
           </p>
           <a
             href="https://classroom.google.com/u/2/c/NDU3MzQxNzA3OTkx/m/NTEzODkwNzU0NTU2/details"
             target="_blank"
+            className="text-end"
           >
             ¡Ir a la asignación!
           </a>
@@ -49,8 +47,8 @@ const Metaverse = () => {
         <ActivitieImage src={qrExample} alt="Actividad 1" />
       </ActivitieContainer>
       <ActivitieContainer>
-        <ActivitieDescription>
-          <h4 className="activitie-title">Título de la actividad</h4>
+        <ActivitieDescription className="activitie-description">
+          <h3>Título de la actividad</h3>
           <span>Descripción:</span>
           <p>
             Eiusmod non fugiat id consequat officia fugiat. Eiusmod mollit
@@ -62,6 +60,13 @@ const Metaverse = () => {
             reprehenderit do nostrud pariatur irure pariatur et do qui nostrud
             fugiat et.
           </p>
+          <a
+            href="https://classroom.google.com/u/2/c/NDU3MzQxNzA3OTkx/m/NTEzODkwNzU0NTU2/details"
+            target="_blank"
+            className="text-start"
+          >
+            ¡Ir a la asignación!
+          </a>
         </ActivitieDescription>
         <ActivitieImage src={qrExample} alt="Actividad 1" />
       </ActivitieContainer>
@@ -76,12 +81,16 @@ const Layout = styled.div`
   height: 100%;
 `;
 
+const ActivitiesToDisplay = styled.h3`
+  font-style: italic;
+`;
+
 const ActivitieContainer = styled.div`
   margin: 30px 0px;
   margin: 30px 100px;
   display: flex;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 25px;
@@ -95,14 +104,14 @@ const ActivitieDescription = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 20px;
+  padding: 0px 50px;
   width: 80%;
 `;
 
 const ActivitieImage = styled.img`
   border-radius: 20px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 `;
 
 export default Metaverse;

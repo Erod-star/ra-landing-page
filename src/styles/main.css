@@ -15,10 +15,10 @@ hr {
 }
 
 .section-title {
-  font-size: 48px;
+  font-size: 38px;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 
@@ -29,7 +29,7 @@ hr {
 
 /* ? Styleds */
 .animated-background {
-  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  background: linear-gradient(to right, #020024, #090979, #00d4ff);
   background-size: 400% 400%;
   animation: animate-background 10s infinite ease-in-out;
 }

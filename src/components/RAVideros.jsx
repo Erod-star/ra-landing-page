@@ -23,6 +23,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=7-gbG_yuUE8&ab_channel=EducarPortal"
+                height="280px"
               />
               <a
                 href="https://www.youtube.com/watch?v=7-gbG_yuUE8&ab_channel=EducarPortal"
@@ -36,6 +37,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=064dw0r7xuE&ab_channel=MemoRodriguez"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=064dw0r7xuE&ab_channel=MemoRodriguez">
                 ¡Ver vídeo en Youtube!
@@ -46,6 +48,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=6Ss_SSvLJgw&ab_channel=Platzi"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=6Ss_SSvLJgw&ab_channel=Platzi">
                 ¡Ver vídeo en Youtube!
@@ -56,6 +59,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=4r84r_fBDHc&ab_channel=JoseJulianPrieto"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=4r84r_fBDHc&ab_channel=JoseJulianPrieto">
                 ¡Ver vídeo en Youtube!
@@ -66,6 +70,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=uCYG8gcBLHU&ab_channel=Globalzepp"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=uCYG8gcBLHU&ab_channel=Globalzepp">
                 ¡Ver vídeo en Youtube!
@@ -76,6 +81,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=oVxYya79_ew&ab_channel=LuisFont"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=oVxYya79_ew&ab_channel=LuisFont">
                 ¡Ver vídeo en Youtube!
@@ -93,6 +99,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=277tiZpwv88&ab_channel=ComputerHoy.com"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=277tiZpwv88&ab_channel=ComputerHoy.com">
                 ¡Ver vídeo en Youtube!
@@ -103,6 +110,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=LMv329VkZVw&ab_channel=CulturaVJ"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=LMv329VkZVw&ab_channel=CulturaVJ">
                 ¡Ver vídeo en Youtube!
@@ -113,6 +121,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=D6pa1C_cEok&ab_channel=LauraReyes"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=D6pa1C_cEok&ab_channel=LauraReyes">
                 ¡Ver vídeo en Youtube!
@@ -123,6 +132,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=TxOtDhrqiXw&ab_channel=CNETenEspa%C3%B1ol"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=TxOtDhrqiXw&ab_channel=CNETenEspa%C3%B1ol">
                 ¡Ver vídeo en Youtube!
@@ -133,6 +143,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=BPuI35VJRJI&ab_channel=MediaMarktEspa%C3%B1a"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=BPuI35VJRJI&ab_channel=MediaMarktEspa%C3%B1a">
                 ¡Ver vídeo en Youtube!
@@ -143,6 +154,7 @@ const RAVideos = () => {
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=haF0vL7Sies&ab_channel=DWEspa%C3%B1ol"
+                height="280px"
               />
               <a href="https://www.youtube.com/watch?v=haF0vL7Sies&ab_channel=DWEspa%C3%B1ol">
                 ¡Ver vídeo en Youtube!

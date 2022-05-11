@@ -102,6 +102,7 @@ const Bibliographies = () => {
 
 const Layout = styled.div`
   margin: 10px;
+  margin-right: 30px;
   padding-top: 58px;
   height: auto;
   padding-bottom: 45px;

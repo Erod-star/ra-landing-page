@@ -21,6 +21,7 @@ const MainLayout = () => {
   return (
     <div className="animated-background">
       <Navbar />
+      {/* ! Here are the console warnings! */}
       <Metaverse />
       <RAVideos />
       <BibliographicCards />
