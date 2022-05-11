@@ -32,7 +32,7 @@ const RAVideos = () => {
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
-            {/* <VideoWrapper className="video-wrapper">
+            <VideoWrapper className="video-wrapper">
               <h4>Historia de la realidad aumentada</h4>
               <ReactPlayer
                 controls
@@ -86,7 +86,7 @@ const RAVideos = () => {
               <a href="https://www.youtube.com/watch?v=oVxYya79_ew&ab_channel=LuisFont">
                 ¡Ver vídeo en Youtube!
               </a>
-            </VideoWrapper> */}
+            </VideoWrapper>
           </VideoGrid>
         </div>
         <div className="d-flex justify-content-center flex-column">
@@ -98,14 +98,17 @@ const RAVideos = () => {
               <h4>¿Qué es la realidad virtual?</h4>
               <ReactPlayer
                 controls
-                url="https://www.youtube.com/watch?v=277tiZpwv88&ab_channel=ComputerHoy.com"
+                url="https://www.youtube.com/watch?v=e2JubEBWwaQ&ab_channel=WarnerBros.PicturesEspa%C3%B1a"
                 height="280px"
               />
-              <a href="https://www.youtube.com/watch?v=277tiZpwv88&ab_channel=ComputerHoy.com">
+              <a
+                href="https://www.youtube.com/watch?v=e2JubEBWwaQ&ab_channel=WarnerBros.PicturesEspa%C3%B1a"
+                target="_blank"
+              >
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
-            {/* <VideoWrapper className="video-wrapper">
+            <VideoWrapper className="video-wrapper">
               <h4>Historia de la realidad virtual</h4>
               <ReactPlayer
                 controls
@@ -159,7 +162,7 @@ const RAVideos = () => {
               <a href="https://www.youtube.com/watch?v=haF0vL7Sies&ab_channel=DWEspa%C3%B1ol">
                 ¡Ver vídeo en Youtube!
               </a>
-            </VideoWrapper> */}
+            </VideoWrapper>
           </VideoGrid>
         </div>
       </div>
