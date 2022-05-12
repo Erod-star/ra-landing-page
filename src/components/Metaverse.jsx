@@ -5,7 +5,8 @@ import styled from "styled-components";
 import "../styles/components/Metaverse.css";
 
 //  ? Activities images
-import qrExample from "../assets/qr_example.png";
+import metaverse from "../assets/metaverse/metaverse.jpg";
+import activity2 from "../assets/metaverse/decentraland.jpg";
 
 const Metaverse = () => {
   return (
@@ -44,7 +45,11 @@ const Metaverse = () => {
             ¡Ir a la asignación!
           </a>
         </ActivitieDescription>
-        <ActivitieImage src={qrExample} alt="Actividad 1" />
+        <ActivitieImage
+          className="activity-one"
+          src={metaverse}
+          alt="Actividad 1"
+        />
       </ActivitieContainer>
       <ActivitieContainer>
         <ActivitieDescription className="activitie-description">
@@ -68,7 +73,7 @@ const Metaverse = () => {
             ¡Ir a la asignación!
           </a>
         </ActivitieDescription>
-        <ActivitieImage src={qrExample} alt="Actividad 1" />
+        <ActivitieImage src={activity2} alt="Actividad 2" />
       </ActivitieContainer>
     </Layout>
   );

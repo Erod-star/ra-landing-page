@@ -18,6 +18,7 @@ const RAVideos = () => {
             Realidad Aumentada
           </h2>
           <VideoGrid>
+            {/* TODO: Cambiar por videos que si son */}
             <VideoWrapper className="video-wrapper">
               <h4>¿Qué es realidad aumentada?</h4>
               <ReactPlayer
@@ -32,7 +33,7 @@ const RAVideos = () => {
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
-            <VideoWrapper className="video-wrapper">
+            {/* <VideoWrapper className="video-wrapper">
               <h4>Historia de la realidad aumentada</h4>
               <ReactPlayer
                 controls
@@ -86,7 +87,7 @@ const RAVideos = () => {
               <a href="https://www.youtube.com/watch?v=oVxYya79_ew&ab_channel=LuisFont">
                 ¡Ver vídeo en Youtube!
               </a>
-            </VideoWrapper>
+            </VideoWrapper> */}
           </VideoGrid>
         </div>
         <div className="d-flex justify-content-center flex-column">
@@ -95,7 +96,7 @@ const RAVideos = () => {
           </h2>
           <VideoGrid>
             <VideoWrapper className="video-wrapper">
-              <h4>¿Qué es la realidad virtual?</h4>
+              <h4>Dunkerque - Realidad virtual 360°</h4>
               <ReactPlayer
                 controls
                 url="https://www.youtube.com/watch?v=e2JubEBWwaQ&ab_channel=WarnerBros.PicturesEspa%C3%B1a"
@@ -108,61 +109,64 @@ const RAVideos = () => {
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
-            <VideoWrapper className="video-wrapper">
-              <h4>Historia de la realidad virtual</h4>
+            {/* <VideoWrapper className="video-wrapper">
+              <h4>Montaña rusa</h4>
               <ReactPlayer
                 controls
-                url="https://www.youtube.com/watch?v=LMv329VkZVw&ab_channel=CulturaVJ"
+                url="https://www.youtube.com/watch?v=ix9Ioymijfw&ab_channel=3D%27n%27Play"
                 height="280px"
               />
-              <a href="https://www.youtube.com/watch?v=LMv329VkZVw&ab_channel=CulturaVJ">
+              <a
+                href="https://www.youtube.com/watch?v=ix9Ioymijfw&ab_channel=3D%27n%27Play"
+                target="_blank"
+              >
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
             <VideoWrapper className="video-wrapper">
-              <h4>Elementos de la realidad virtual</h4>
+              <h4>Vida submarina </h4>
               <ReactPlayer
                 controls
-                url="https://www.youtube.com/watch?v=D6pa1C_cEok&ab_channel=LauraReyes"
+                url="https://www.youtube.com/watch?v=LpQYs54IY5Q&ab_channel=3DVR360VIDEOS"
                 height="280px"
               />
-              <a href="https://www.youtube.com/watch?v=D6pa1C_cEok&ab_channel=LauraReyes">
+              <a href="https://www.youtube.com/watch?v=LpQYs54IY5Q&ab_channel=3DVR360VIDEOS">
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
             <VideoWrapper className="video-wrapper">
-              <h4>Usos de la realidad virtual</h4>
+              <h4>Etapa prehistórica</h4>
               <ReactPlayer
                 controls
-                url="https://www.youtube.com/watch?v=TxOtDhrqiXw&ab_channel=CNETenEspa%C3%B1ol"
+                url="https://www.youtube.com/watch?v=RVY5JtwrG1Y&ab_channel=3DVR360VIDEOS"
                 height="280px"
               />
-              <a href="https://www.youtube.com/watch?v=TxOtDhrqiXw&ab_channel=CNETenEspa%C3%B1ol">
+              <a href="https://www.youtube.com/watch?v=RVY5JtwrG1Y&ab_channel=3DVR360VIDEOS">
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
             <VideoWrapper className="video-wrapper">
-              <h4>Ejemplos de aplicaciones con realidad virtual</h4>
+              <h4>Stranger Things</h4>
               <ReactPlayer
                 controls
-                url="https://www.youtube.com/watch?v=BPuI35VJRJI&ab_channel=MediaMarktEspa%C3%B1a"
+                url="https://www.youtube.com/watch?v=iyQNIK493YA"
                 height="280px"
               />
-              <a href="https://www.youtube.com/watch?v=BPuI35VJRJI&ab_channel=MediaMarktEspa%C3%B1a">
+              <a href="https://www.youtube.com/watch?v=iyQNIK493YA">
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
             <VideoWrapper className="video-wrapper">
-              <h4>Futuro de la realidad virtual</h4>
+              <h4>Excursión en bote</h4>
               <ReactPlayer
                 controls
-                url="https://www.youtube.com/watch?v=haF0vL7Sies&ab_channel=DWEspa%C3%B1ol"
+                url="https://www.youtube.com/watch?v=2ABZXtfdYyk&ab_channel=EkosVR"
                 height="280px"
               />
-              <a href="https://www.youtube.com/watch?v=haF0vL7Sies&ab_channel=DWEspa%C3%B1ol">
+              <a href="https://www.youtube.com/watch?v=2ABZXtfdYyk&ab_channel=EkosVR">
                 ¡Ver vídeo en Youtube!
               </a>
-            </VideoWrapper>
+            </VideoWrapper> */}
           </VideoGrid>
         </div>
       </div>
