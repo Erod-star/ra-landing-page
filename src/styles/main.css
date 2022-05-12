@@ -44,19 +44,19 @@ hr {
   }
 }
 
-/*
- ? C O L O R S
-$primary: #ffce47;
-$secondary: #fdba02;
-$tertiary: #d55f20;
+/* ::-webkit-scrollbar {
+  width: 1.1em;
+}
 
-$black: #000000;
-$black-100: #383838;
-$black-400: #141212;
-$black-600: #131313;
+::-webkit-scrollbar-track {
+  background: linear-gradient(to top, white, #090979, white);
+}
 
-$gray: #9a9a9a;
-$gray-400: #757575;
+::-webkit-scrollbar-thumb {
+  background-color: #1313d6;
+  border-radius: 100vh;
+}
 
-$white: #ffff;
- */
+::-webkit-scrollbar-thumb:hover {
+  background-color: black;
+} */
