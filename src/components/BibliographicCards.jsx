@@ -68,7 +68,7 @@ const BibliographicCards = () => {
       case 5:
         setActiveArticle({
           id: 5,
-          title: "Título cinco",
+          title: "Título cinco!!!",
           description:
             "Nostrud anim commodo eiusmod proident cupidatat irure commodo enim pariatur.",
           link: "https://google.com",

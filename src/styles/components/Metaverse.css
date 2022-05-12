@@ -46,3 +46,8 @@
     transform: translateY(10px);
   }
 }
+
+.activity-one {
+  transform: rotate(270deg);
+  width: 386px !important;
+}
