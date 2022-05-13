@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 // ? QRs
-import qrExample from "../assets/qr_example.png";
+import qrEdson from "../assets/qrs/EdsonQr.png";
+import qrKenia from "../assets/qrs/KeniaQr.png";
+import qrFlorencio from "../assets/qrs/FlorencioQr.png";
 
 const Bibliographies = () => {
   return (
@@ -12,11 +14,7 @@ const Bibliographies = () => {
       <ClassmatesGrid>
         <BibliographieCard>
           <h4>Castro Barreto Francisco fidel</h4>
-          <img
-            className="img-fluid qr-image"
-            src={qrExample}
-            alt="student qr"
-          />
+          <img className="img-fluid qr-image" src={qrEdson} alt="student qr" />
           <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
@@ -57,7 +55,12 @@ const Bibliographies = () => {
         </BibliographieCard>
         <BibliographieCard>
           <h4>Orozco Valdez Florencio Miguel</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrFlorencio}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Renteria Barreto Diego Eduardo</h4>
@@ -65,7 +68,8 @@ const Bibliographies = () => {
         </BibliographieCard>
         <BibliographieCard>
           <h4>Rodríguez Govea Edson Arturo</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrEdson} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Rodríguez Villaseñor Jonathan Eduardo</h4>
@@ -89,7 +93,8 @@ const Bibliographies = () => {
         </BibliographieCard>
         <BibliographieCard>
           <h4>Villa Serratos Kenia Elizabeth</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrKenia} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Leonel Arroyo Elizarraraz</h4>

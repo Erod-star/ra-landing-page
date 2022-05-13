@@ -29,7 +29,8 @@
   font-size: 18px;
 }
 
-.activities-loading {
+.activities-loading,
+.activities-loading-portfolio {
   position: relative;
   top: -5px;
   animation: on-activitie-loading 2s infinite;
@@ -45,6 +46,10 @@
   50% {
     transform: translateY(10px);
   }
+}
+
+.activities-loading-portfolio {
+  font-size: 36px;
 }
 
 .activity-one {
