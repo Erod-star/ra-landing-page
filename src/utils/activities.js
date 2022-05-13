@@ -10,7 +10,7 @@ export const firstPartActivities = [
   },
   {
     id: "2",
-    title: "ACTIVIDAD 2: DIGITALIZACIÓN",
+    title: "ACTIVIDAD 2: DIGITALIZACIÓN!",
     description: "Parrafo de ejemplo",
     link: "https://classroom.google.com/u/0/c/NDU3MzQxNzA3OTkx/a/NDY4NzUwNTg5OTUx/details?hl=es",
     image:
