@@ -91,6 +91,7 @@ const ActivitieDescription = styled.div`
 `;
 
 const ActivitieImage = styled.img`
+  border-radius: 20px;
   width: 350px;
   height: 350px;
 `;
