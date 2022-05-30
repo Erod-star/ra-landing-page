@@ -5,12 +5,30 @@ import styled from "styled-components";
 import "../styles/components/Metaverse.css";
 
 //  ? Activities images
+import zappar from "../assets/metaverse/zappar.png";
 import metaverse from "../assets/metaverse/metaverse.jpg";
 import activity2 from "../assets/metaverse/decentraland.jpg";
+import activity3 from "../assets/metaverse/sandbox.png";
+import activity4 from "../assets/metaverse/somniumSpace.png";
 
 const Metaverse = () => {
   return (
-    <Layout id="metaverse" className="component-container">
+    <Layout className="component-container">
+      <WarningApps>
+        <h5 className="text-center">
+          NOTA: Para acceder a ciertos marcadores y QRs dentro de este proyecto
+          es necesario tener instalada la aplicación Zappar
+        </h5>
+        <a
+          className="zappar"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=com.zappar.Zappar"
+        >
+          Descargar aquí
+        </a>
+        <p> O por Qr </p>
+        <img className="zappar-warning" id="metaverse" src={zappar} />
+      </WarningApps>
       <h1 className="text-center section-title">Metaverso</h1>
       <hr />
       <div className="mt-5 mb-5 ms-5 d-flex activities-metaverse">
@@ -21,29 +39,18 @@ const Metaverse = () => {
       </div>
       <ActivitieContainer>
         <ActivitieDescription className="activitie-description">
-          <h3 className="mb-3">Cartel y exposición del Metaverso</h3>
+          <h3 className="mb-3">Metaverso Facebook</h3>
           <span>Descripción:</span>
           <p>
-            Eiusmod non fugiat id consequat officia fugiat. Eiusmod mollit
-            labore nisi excepteur labore. Do sint ullamco ullamco elit ex
-            laborum incididunt quis in quis ex nulla anim. Sunt occaecat dolor
-            magna est cillum et sunt cillum reprehenderit. Aute laboris ullamco
-            ut dolor elit esse ea est. Veniam dolor excepteur consequat nulla
-            pariatur ut ea excepteur est est sint.
-            <br />
-            Cupidatat voluptate mollit reprehenderit do nostrud pariatur irure
-            pariatur et do qui nostrud fugiat et. Consequat fugiat irure minim
-            enim consequat tempor non consequat aliquip incididunt do quis.
-            Pariatur cillum ipsum deserunt qui ipsum nulla aliqua sunt. Veniam
-            culpa nostrud laborum duis reprehenderit deserunt occaecat dolor.
+            Realización de una presentación en papel bond y una investigación
+            dígital sobre el metaverso de Facebook en donde se incluye Que es,
+            Como funciona, Quien lo creo, Cuál es la arquitectura del metaverso,
+            Componentes del metaverso, Cuál es el motivo por el que se crea,
+            Tecnologías que intervienen en el metaverso, Como me registro, Que
+            necesito para hacer uso del metaverso, Que fines y/o usos tiene,
+            Empresas que ya colaboran en el metaverso, ¿existen reglas? Países
+            disponibles.
           </p>
-          <a
-            href="https://classroom.google.com/u/2/c/NDU3MzQxNzA3OTkx/m/NTEzODkwNzU0NTU2/details"
-            target="_blank"
-            className="text-end"
-          >
-            ¡Ir a la asignación!
-          </a>
         </ActivitieDescription>
         <ActivitieImage
           className="activity-one"
@@ -53,27 +60,50 @@ const Metaverse = () => {
       </ActivitieContainer>
       <ActivitieContainer>
         <ActivitieDescription className="activitie-description">
-          <h3>Título de la actividad</h3>
+          <h3>Decentraland</h3>
           <span>Descripción:</span>
           <p>
-            Eiusmod non fugiat id consequat officia fugiat. Eiusmod mollit
-            labore nisi excepteur labore. Do sint ullamco ullamco elit ex
-            laborum incididunt quis in quis ex nulla anim. Sunt occaecat dolor
-            magna est cillum et sunt cillum reprehenderit. Aute laboris ullamco
-            ut dolor elit esse ea est. Veniam dolor excepteur consequat nulla
-            pariatur ut ea excepteur est est sint. Cupidatat voluptate mollit
-            reprehenderit do nostrud pariatur irure pariatur et do qui nostrud
-            fugiat et.
+            Realización de una presentación en papel bond de alguno de los temas
+            proporcionados para la actividad referente al metaverso
+            "Decentraland". <br />
+            En este caso se desarrollo la pregunta{" "}
+            <strong>¿Quién creó decentraland?</strong>
           </p>
-          <a
-            href="https://classroom.google.com/u/2/c/NDU3MzQxNzA3OTkx/m/NTEzODkwNzU0NTU2/details"
-            target="_blank"
-            className="text-start"
-          >
-            ¡Ir a la asignación!
-          </a>
         </ActivitieDescription>
         <ActivitieImage src={activity2} alt="Actividad 2" />
+      </ActivitieContainer>
+      <ActivitieContainer>
+        <ActivitieDescription className="activitie-description">
+          <h3>The Sandbox</h3>
+          <span>Descripción:</span>
+          <p>
+            Realización de una presentación en el software de Microsoft Sway
+            sobre el metaverso The sandbox en donde se incluye Que es, Como
+            funciona, Quien lo creo, Cuál es la arquitectura del metaverso,
+            Componentes del metaverso, Cuál es el motivo por el que se crea,
+            Tecnologías que intervienen en el metaverso, Como me registro, Que
+            necesito para hacer uso del metaverso, Que fines y/o usos tiene,
+            Empresas que ya colaboran en el metaverso, ¿existen reglas? Países
+            disponibles.
+          </p>
+        </ActivitieDescription>
+        <ActivitieImage src={activity3} alt="Actividad 3" />
+      </ActivitieContainer>
+      <ActivitieContainer>
+        <ActivitieDescription className="activitie-description">
+          <h3>Somnium space</h3>
+          <span>Descripción:</span>
+          <p>
+            Realización de una presentación sobre el metaverso de Somnium space
+            en donde se incluye Que es, Como funciona, Quien lo creo, Cuál es la
+            arquitectura del metaverso, Componentes del metaverso, Cuál es el
+            motivo por el que se crea, Tecnologías que intervienen en el
+            metaverso, Como me registro, Que necesito para hacer uso del
+            metaverso, Que fines y/o usos tiene, Empresas que ya colaboran en el
+            metaverso, ¿existen reglas? Países disponibles.
+          </p>
+        </ActivitieDescription>
+        <ActivitieImage src={activity4} alt="Actividad 4" />
       </ActivitieContainer>
     </Layout>
   );
@@ -117,6 +147,20 @@ const ActivitieImage = styled.img`
   border-radius: 20px;
   width: 350px;
   height: 350px;
+`;
+
+const WarningApps = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 25px;
 `;
 
 export default Metaverse;

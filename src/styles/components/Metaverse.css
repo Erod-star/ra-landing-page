@@ -56,3 +56,18 @@
   transform: rotate(270deg);
   width: 386px !important;
 }
+
+.zappar {
+  color: #fdd641;
+}
+
+.zappar:hover {
+  color: #b89c2e;
+  cursor: pointer;
+}
+
+.zappar-warning {
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+}

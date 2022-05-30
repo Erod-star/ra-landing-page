@@ -6,6 +6,25 @@ import qrEdson from "../assets/qrs/EdsonQr.png";
 import qrKenia from "../assets/qrs/KeniaQr.png";
 import qrFlorencio from "../assets/qrs/FlorencioQr.png";
 
+import qrJonny from "../assets/qrs/JonathanQr.png";
+import qrTerrones from "../assets/qrs/TerronesQr.png";
+import qrVanessa from "../assets/qrs/VanessaQr.png";
+
+import qrCortes from "../assets/qrs/CortesQr.png";
+import qrCuevas from "../assets/qrs/CuevasQr.png";
+import qrMichel from "../assets/qrs/GarciaMichelQr.png";
+import qrContreras from "../assets/qrs/ContrerasQr.png";
+import qrHerrera from "../assets/qrs/HerreraRomanQr.png";
+import qrLeonel from "../assets/qrs/LeonelQr.png";
+import qrManzo from "../assets/qrs/ManzoQr.png";
+import qrMedrano from "../assets/qrs/MedranoQr.png";
+import qrMontelongo from "../assets/qrs/MontelongoQr.png";
+import qrRosales from "../assets/qrs/RosalesQr.png";
+import qrSaucedo from "../assets/qrs/SaucedoQr.png";
+import qrSolis from "../assets/qrs/SolisQr.png";
+import qrRenteria from "../assets/qrs/RenteriaQr.png";
+import qrCastro from "../assets/qrs/CastroQr.png";
+
 const Bibliographies = () => {
   return (
     <Layout id="bibliographies">
@@ -14,44 +33,73 @@ const Bibliographies = () => {
       <ClassmatesGrid>
         <BibliographieCard>
           <h4>Castro Barreto Francisco fidel</h4>
-          <img className="img-fluid qr-image" src={qrEdson} alt="student qr" />
+          <img className="img-fluid qr-image" src={qrCastro} alt="student qr" />
           <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Contreras Hernandez Irieno</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrContreras}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Cortes Comparan Daniel</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrCortes} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Covarrubias Nava Alondra Vanessa</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrVanessa}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Cuevas Ceballos Erick</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrCuevas} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Garcia Michel Sergio</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrMichel} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Gonzalez Montelongo Edgar Jose</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrMontelongo}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Herrera Espinoza Alberto Román</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrHerrera}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Manzo Martinez Enelida Natalia</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrManzo} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Medrano Ríos Ivan Joshue</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrMedrano}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Orozco Valdez Florencio Miguel</h4>
@@ -64,7 +112,12 @@ const Bibliographies = () => {
         </BibliographieCard>
         <BibliographieCard>
           <h4>Renteria Barreto Diego Eduardo</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrRenteria}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Rodríguez Govea Edson Arturo</h4>
@@ -73,23 +126,40 @@ const Bibliographies = () => {
         </BibliographieCard>
         <BibliographieCard>
           <h4>Rodríguez Villaseñor Jonathan Eduardo</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrJonny} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Rosales Gonzalez Alberto</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrRosales}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Solis Gonzalez Luis Alberto</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrSolis} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Terrones Díaz Francisco Javier</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrTerrones}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Ugarte Saucedo Alan Eduardo</h4>
-          <p>Aquí la foto del QR</p>
+          <img
+            className="img-fluid qr-image"
+            src={qrSaucedo}
+            alt="student qr"
+          />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
         <BibliographieCard>
           <h4>Villa Serratos Kenia Elizabeth</h4>
@@ -98,7 +168,8 @@ const Bibliographies = () => {
         </BibliographieCard>
         <BibliographieCard>
           <h4>Leonel Arroyo Elizarraraz</h4>
-          <p>Aquí la foto del QR</p>
+          <img className="img-fluid qr-image" src={qrLeonel} alt="student qr" />
+          <p>¡Escanea el QR para acceder a la biografía!</p>
         </BibliographieCard>
       </ClassmatesGrid>
     </Layout>

@@ -12,39 +12,38 @@ const ActivitiesPortfolio = () => {
     <Layout id="activitiesPortfolio" className="component-container">
       <h1 className="text-center section-title">Portafolio de actividades</h1>
       <hr />
+      <Info className="mt-3 text-center">
+        Aquí deberas escanear el código Qr utilizando la aplicación{" "}
+        <strong>Zappar</strong>
+      </Info>
       <div className="mt-5 mb-5 ms-5 d-flex activities-metaverse">
         <ActivitiesToDisplay>Primera parcial</ActivitiesToDisplay>
         <div className="activities-loading-portfolio">👇</div>
       </div>
-      {firstPartActivities.map((activity, index) => {
+      {firstPartActivities.map((activity, i) => {
         return (
-          <ActivitieContainer>
+          <ActivitieContainer key={activity.id}>
             <ActivitieDescription className="activitie-description">
               <h3 className="mb-3">{activity.title}</h3>
               <span>Descripción:</span>
               <p>{activity.description}</p>
-              <a href={activity.link} target="_blank" className="text-end">
-                ¡Ir a la asignación!
-              </a>
             </ActivitieDescription>
             <ActivitieImage src={activity.image} alt={activity.id} />
           </ActivitieContainer>
         );
       })}
+
       <div className="mt-5 mb-5 ms-5 d-flex activities-metaverse">
         <ActivitiesToDisplay>Segunda parcial</ActivitiesToDisplay>
         <div className="activities-loading">👇</div>
       </div>
-      {secondPartActivities.map((activity, index) => {
+      {secondPartActivities.map((activity) => {
         return (
-          <ActivitieContainer>
+          <ActivitieContainer key={activity.id}>
             <ActivitieDescription className="activitie-description">
               <h3 className="mb-3">{activity.title}</h3>
               <span>Descripción:</span>
               <p>{activity.description}</p>
-              <a href={activity.link} target="_blank" className="text-end">
-                ¡Ir a la asignación!
-              </a>
             </ActivitieDescription>
             <ActivitieImage src={activity.image} alt={activity.id} />
           </ActivitieContainer>
@@ -94,6 +93,10 @@ const ActivitieImage = styled.img`
   border-radius: 20px;
   width: 350px;
   height: 350px;
+`;
+
+const Info = styled.h4`
+  color: white;
 `;
 
 export default ActivitiesPortfolio;

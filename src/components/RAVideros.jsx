@@ -33,7 +33,7 @@ const RAVideos = () => {
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
-            {/* <VideoWrapper className="video-wrapper">
+            <VideoWrapper className="video-wrapper">
               <h4>Historia de la realidad aumentada</h4>
               <ReactPlayer
                 controls
@@ -87,7 +87,7 @@ const RAVideos = () => {
               <a href="https://www.youtube.com/watch?v=oVxYya79_ew&ab_channel=LuisFont">
                 ¡Ver vídeo en Youtube!
               </a>
-            </VideoWrapper> */}
+            </VideoWrapper>
           </VideoGrid>
         </div>
         <div className="d-flex justify-content-center flex-column">
@@ -109,7 +109,7 @@ const RAVideos = () => {
                 ¡Ver vídeo en Youtube!
               </a>
             </VideoWrapper>
-            {/* <VideoWrapper className="video-wrapper">
+            <VideoWrapper className="video-wrapper">
               <h4>Montaña rusa</h4>
               <ReactPlayer
                 controls
@@ -166,7 +166,7 @@ const RAVideos = () => {
               <a href="https://www.youtube.com/watch?v=2ABZXtfdYyk&ab_channel=EkosVR">
                 ¡Ver vídeo en Youtube!
               </a>
-            </VideoWrapper> */}
+            </VideoWrapper>
           </VideoGrid>
         </div>
       </div>

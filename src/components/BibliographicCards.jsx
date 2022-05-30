@@ -11,8 +11,7 @@ const BibliographicCards = () => {
     description:
       "Bibliografía. México: Anaya Editores, 2007. El Arte de la guerra ilustrado / Sun Tzu ; versión de Thomas Cleary. Madrid: EDAF, 2004.",
     link: "https://www.amazon.com.mx/El-Arte-Guerra-Cl%C3%A1sicos-literatura-ebook/dp/B011VIVOFO",
-    image:
-      "https://i.imgur.com/zLhcylu.png",
+    image: "https://i.imgur.com/zLhcylu.png",
   });
 
   const setArticle = (value) => {
@@ -24,8 +23,7 @@ const BibliographicCards = () => {
           description:
             "Bibliografía. México: Anaya Editores, 2007. El Arte de la guerra ilustrado / Sun Tzu ; versión de Thomas Cleary. Madrid: EDAF, 2004.",
           link: "https://www.amazon.com.mx/El-Arte-Guerra-Cl%C3%A1sicos-literatura-ebook/dp/B011VIVOFO",
-          image:
-            "https://i.imgur.com/zLhcylu.png",
+          image: "https://i.imgur.com/zLhcylu.png",
         });
         return;
 
@@ -36,8 +34,7 @@ const BibliographicCards = () => {
           description:
             "Stoker, B., & Gorey, E. (2021). Dracula: Deluxe Edition. Union Square & Co.",
           link: "https://www.amazon.com.mx/Dracula-Deluxe-Bram-Stoker/dp/1454944218",
-          image:
-            "https://i.imgur.com/LeGS4W6.png",
+          image: "https://i.imgur.com/LeGS4W6.png",
         });
         return;
 
@@ -48,8 +45,7 @@ const BibliographicCards = () => {
           description:
             "Navarro, J. (2013). Dime quién soy (1.a ed.). Penguin Random House Grupo Editorial SA de CV.",
           link: "https://www.amazon.com.mx/Dime-qui%C3%A9n-soy-Julia-Navarro/dp/6073105142/ref=asc_df_6073105142/?tag=gledskshopmx-20&linkCode=df0&hvadid=295447233299&hvpos=&hvnetw=g&hvrand=9455093088528404515&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9073783&hvtargid=pla-435427430315&psc=1",
-          image:
-            "https://i.imgur.com/94ZHyP1.png",
+          image: "https://i.imgur.com/94ZHyP1.png",
         });
         return;
 
@@ -60,8 +56,7 @@ const BibliographicCards = () => {
           description:
             "Salinger, J. (2021). The Catcher in the Rye (Reissue ed.). Little Brown.",
           link: "https://google.com",
-          image:
-            "https://i.imgur.com/fWT4SXp.png",
+          image: "https://i.imgur.com/fWT4SXp.png",
         });
         return;
 
@@ -72,8 +67,7 @@ const BibliographicCards = () => {
           description:
             "King, S., & Suárez, D. A. L. F. M. (2012). Cementerio de animales. DEBOLS!LLO.",
           link: "https://www.amazon.com.mx/Cementerio-Animales-Cemetary-Stephen-King/dp/8497930991",
-          image:
-            "https://i.imgur.com/cNMn0xM.png",
+          image: "https://i.imgur.com/cNMn0xM.png",
         });
         return;
 
@@ -95,7 +89,11 @@ const BibliographicCards = () => {
     <Layout id="bibliograficCards">
       <h1 className="text-center section-title">Fichas bibliográficas</h1>
       <hr />
-      <h3 className="mt-5 mb-5 ms-5 d-flex activities-metaverse">Para observar estas fichas es necesario tener instalada la app Zappar</h3>
+      <Info className="mt-3 text-center">
+        Para observar estas fichas es necesario tener instalada la app{" "}
+        <strong>Zappar</strong>
+      </Info>
+
       <ArticleContainer className="bibligraphic-card mt-4">
         <ArticleImage src={activeArticle.image} alt={activeArticle.title} />
         <ArticleInfo className="bibliographic-card-info">
@@ -193,17 +191,21 @@ const ArticleImage = styled.img`
 
 const ArticleInfo = styled.div`
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background: rgba(198, 197, 197, 0.4);
+  -webkit-backdrop-filter: blur(15px);
+  background: rgba(148, 148, 148, 0.8);
   border-radius: 15px;
-  color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
   padding: 15px;
   position: relative;
   transition: 0.5s;
   z-index: 3;
-  height: 320px;
-  width: 240px;
+  height: 400px;
+  width: 450px;
   &:hover {
     cursor: pointer;
   }
@@ -218,6 +220,10 @@ const ArticleOption = styled.input`
     opacity: 0.7;
     border: 5px dashed green;
   }
+`;
+
+const Info = styled.h4`
+  color: white;
 `;
 
 export default BibliographicCards;
